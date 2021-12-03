@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Selecao - v4.7.0
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+  <div id='piece'>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+      <div class="container d-flex align-items-center justify-content-between">
+
+        <div class="logo">
+          <h1><a href="index.html">데즐</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About 데즐</a></li>
+            <li><a class="nav-link scrollto" href="#features">How it works</a></li>
+            <li><a class="nav-link scrollto " href="#services">나의 데이터 입력하기</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+      </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+      <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>데즐</span></h2>
+            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+        </g>
+        <g class="wave3">
+          <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+        </g>
+      </svg>
+
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+
+          <div class="section-title" data-aos="zoom-out">
+            <h2>About</h2>
+            <p>데즐</p>
+          </div>
+
+          <div class="row content" data-aos="fade-up">
+            <div class="col-lg-6">
+              <p>
+                사용자 소비패턴에 따른 카드 추천 시스템
+              </p>
+              <ul>
+                <li><i class="ri-check-double-line"></i> AI를 기반으로 한 맞춤형 카드 추천 알고리즘 사용</li>
+                <li><i class="ri-check-double-line"></i> 신용카드 사용 데이터 분석을 통한 최신 트렌드 반영 추천</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <p>
+                <!-- 설명 -->
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section><!-- End About Section -->
+
+      <!-- ======= Features Section ======= -->
+      <section id="features" class="features">
+        <div class="container">
+
+          <div class="tab-content" data-aos="fade-up">
+            <div class="tab-pane active show" id="tab-1">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>카드 추천 서비스</h3>
+                  <p class="fst-italic">
+                    카드 추천 3가지 기준
+                  </p>
+                  <ul>
+                    <li><i class="ri-check-double-line"></i> 소비 패턴에 가장 적합한 카드 추천</li>
+                    <li><i class="ri-check-double-line"></i> 거주지/성별/연령대가 동일한 서울 시민에게 적합한 카드 추천</li>
+                    <li><i class="ri-check-double-line"></i> 서울 시민의 평균적인 소비 패턴에 적합한 카드 추천</li>
+                  </ul>
+                  <p>
+                    <!-- 설명 -->
+                  </p>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img src="{% static 'img/features-1.png' %}" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- End Features Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container">
+
+          <div class="section-title" data-aos="zoom-out">
+            <h2>맞춤형 카드 추천 서비스</h2>
+            <p>간단한 정보 입력으로 나만의 카드를 추천 받아보세요!</p>
+          </div>
+          <hr />
+          <br />
+
+
+          <div class="section-container">
+            <div class="container text-center">
+              <div class="row section-container-spacer">
+                <div class="col-xs-12 col-md-12" data-aos="fade-left">
+                  <h2>Information Input Section</h2>
+
+                  <div class="theme" id="information-container" style="    text-align: center;
+            padding-top: 1%;
+            margin: auto;
+            margin-top: 3%;
+            margin-bottom: 20px;
+            width: 50%;
+            height: 300px;
+            background-color: #eff1f6;
+            border-radius: 10px;">
+
+
+                    <form method="POST">
+                      {% csrf_token %}
+                      <br>
+
+                      <input list="gulist" style="margin-bottom : 10px; border-radius: 7px;" name="gu" id="gu"
+                        class="class_themes" placeholder="거주구를 선택해주세요." onmousedown="sizeChange()">
+                      <datalist id="gulist">
+                        <option value="강남구">
+                        <option value="강동구">
+                        <option value="강북구">
+                        <option value="강서구">
+                        <option value="관악구">
+                        <option value="광진구">
+                        <option value="구로구">
+                        <option value="금천구">
+                        <option value="노원구">
+                        <option value="도봉구">
+                        <option value="동대문구">
+                        <option value="동작구">
+                        <option value="마포구">
+                        <option value="서대문구">
+                        <option value="서초구">
+                        <option value="성동구">
+                        <option value="성북구">
+                        <option value="송파구">
+                        <option value="양천구">
+                        <option value="영등포구">
+                        <option value="용산구">
+                        <option value="은평구">
+                        <option value="종로구">
+                        <option value="중구">
+                        <option value="중랑구">
+                      </datalist>
+
+                      <br>
+                      <input style="margin-bottom : 10px; border-radius: 7px;" name="dong" id="dong"
+                        class="class_themes" placeholder="거주동을 작성해주세요." onmousedown="sizeChange()">
+                      <br>
+
+                      <input list="agelist" style="margin-bottom : 10px; border-radius: 7px;" name="age" id="age"
+                        class="class_themes" placeholder="연령대를 선택해주세요." onmousedown="sizeChange()">
+                      <datalist id="agelist">
+                        <option value="10대">
+                        <option value="20대">
+                        <option value="30대">
+                        <option value="40대">
+                        <option value="50대">
+                        <option value="60대">
+                        <option value="70대이상">
+                      </datalist>
+                      <br>
+                      <label>
+                        <input type="radio" id="sex" name="sex" value="M" checked />
+                        <span>남성</span>
+                      </label>
+                      <label>
+                        <input type="radio" id="sex" name="sex" value="F" />
+                        <span>여성</span>
+                      </label>
+
+                      <br>
+
+                      <div class="filebox">
+                        <input class="upload-name" value="첨부파일" placeholder="첨부파일">
+                        <label for="file">파일찾기</label>
+                        <input type="file" id="file" name="file">
+                      </div>
+                      <style>
+                        input[type="radio"] {
+                          display: none;
+                        }
+
+                        label {
+                          cursor: pointer;
+                          font-weight: 500;
+                        }
+
+
+                        label span {
+                          display: inline-flex;
+                          align-items: center;
+                          padding: 6px 10px 5px 6px;
+                          border-radius: 25px;
+                          transition: .25s ease;
+                          font-size: 14px;
+                        }
+
+                        label span:hover,
+                        input[type="radio"]:checked+span {
+                          background-color: #d6d6e5;
+                        }
+
+                        label span:before {
+                          content: "";
+                          background-color: #fff;
+                          width: 26px;
+                          height: 26px;
+                          border-radius: 50%;
+                          margin-right: 10px;
+                          transition: .25s ease;
+                          box-shadow: inset 0 0 0 2px #EF6603;
+                        }
+
+                        input[type="radio"]:checked+span:before {
+                          box-shadow: inset 0 0 0 6px #EF6603;
+                        }
+
+                        .filebox .upload-name {
+                          display: inline-block;
+                          height: 40px;
+                          padding: 0 10px;
+                          vertical-align: middle;
+                          border: 1px solid #dddddd;
+                          width: 40%;
+                          color: #999999;
+                          margin-top: 10px;
+                        }
+
+                        .filebox label {
+                          display: inline-block;
+                          padding: 10px 20px;
+                          color: #fff;
+                          vertical-align: middle;
+                          background-color: #999999;
+                          cursor: pointer;
+                          height: 40px;
+                          margin-left: 10px;
+                          margin-top: 10px;
+                        }
+
+                        .filebox input[type="file"] {
+                          position: absolute;
+                          width: 0;
+                          height: 0;
+                          padding: 0;
+                          overflow: hidden;
+                          border: 0;
+                        }
+                      </style>
+                      <script>
+                        $("#file").on('change', function () {
+                          var fileName = $("#file").val();
+                          $(".upload-name").val(fileName);
+                        });
+                      </script>
+                      <button style="margin-left: 2%;
+                width: 10%;
+                margin-top: 10px;
+                padding: 1%;
+                background-color:#EF6603;
+                border-radius: 50px;
+                border:none;
+                outline: none;" id="titleSelectBtn" class="Search-btn" type="submit"><img src="../static/img/loupe.png"
+                          alt="search-img" width="40%"></button>
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-container result-section">
+              <div class="container text-center">
+                <div class="row section-container-spacer">
+                  <div class="col-xs-12 col-md-12">
+                    <h2 class="text-center">{{Result}}</h2>
+                    <br>
+                    <p style = "font-size: 20px; font-weight: bold;">{{personaltext}}</p>
+                    <div style = "font-size: 13px; font-weight: bold;">{{perso_card1}}</div>
+                    <div style = "font-size: 13px; font-weight: bold;">{{perso_card2}}</div>
+                    <div style = "font-size: 13px; font-weight: bold;">{{perso_card3}}</div>
+                    <br></br>
+                    <p style = "font-size: 20px; font-weight: bold;">{{gu_text}}</p>
+                    <div style = "font-size: 13px; font-weight: bold;">{{gu_card1}}</div>
+                    <div style = "font-size: 13px; font-weight: bold;">{{gu_card2}}</div>
+                    <div style = "font-size: 13px; font-weight: bold;">{{gu_card3}}</div>
+                    <br></br>
+                    <p style = "font-size: 20px; font-weight: bold;">{{dong_text}}</p>
+                    <div style = "font-size: 13px; font-weight: bold;">{{dong_card1}}</div>
+                    <div style = "font-size: 13px; font-weight: bold;">{{dong_card2}}</div>
+                    <div style = "font-size: 13px; font-weight: bold;">{{dong_card3}}</div>
+                    <br></br>
+                    <p style = "font-size: 20px; font-weight: bold;">{{seoul_text}}</p>
+                    <div style = "font-size: 13px; font-weight: bold;">{{seoul_card1}}</div>
+                    <div style = "font-size: 13px; font-weight: bold;">{{seoul_card2}}</div>
+                    <div style = "font-size: 13px; font-weight: bold;">{{seoul_card3}}</div>
+                    <div class="row mt-5">
+                    <!-- <p class="result-p"> <span><strong>개인소비내역</strong></span> with '<span
+                        class="titleText"> ? </span>'</p>
+                    <div class="fix-btn-container">
+                      <span class="notify_text title_notify_text">"Please Choose a Title."</span>
+                      <div class="btn-container">
+                        {% csrf_token %}
+                        <button id="personalBtn1" class="btn" value={{tag1}} name="tag" type="submit">Tag1</button>
+                        <button id="personalBtn2" class="btn" value={{tag2}} name="tag" type="submit">Tag2</button>
+                        <button id="personalBtn3" class="btn" value={{tag3}} name="tag" type="submit">Tag3</button>
+                      </div>
+                    </div>
+
+                    <br><br>
+
+                    <p class="result-p">Most Used <span><strong>Technology Tag</strong></span> with '<span
+                        class="titleText"> ? </span>'</p>
+                    <span class="notify_text title_notify_text">"Please Choose a Title."</span>
+                    <div class="btn-container">
+                      {% csrf_token %}
+                      <button id="guBtn1" class="btn" value={{tag1}} name="tag" type="submit">Tag1</button>
+                      <button id="guBtn2" class="btn" value={{tag2}} name="tag" type="submit">Tag2</button>
+                      <button id="guBtn3" class="btn" value={{tag3}} name="tag" type="submit">Tag3</button>
+                    </div>
+                    <br><br>
+                    <p class="result-p">Most Used <span><strong>Technology Tag</strong></span> with '<span
+                        class="titleText"> ? </span>'</p>
+                    <span class="notify_text title_notify_text">"Please Choose a Title."</span>
+                    <div class="btn-container">
+                      {% csrf_token %}
+                      <button id="dongBtn1" class="btn" value={{tag1}} name="tag" type="submit">Tag1</button>
+                      <button id="dongBtn2" class="btn" value={{tag2}} name="tag" type="submit">Tag2</button>
+                      <button id="dongBtn3" class="btn" value={{tag3}} name="tag" type="submit">Tag3</button>
+
+                    </div> -->
+                  </div>
+
+
+                </div>
+
+              </div>
+
+
+
+                <!-- <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+
+                  <form method="POST">
+                    {% csrf_token %}
+                    <p>
+                      <input name="gu" placeholder="거주구" required />
+                    </p>
+                    <p>
+                      <input name="dong" placeholder="거주동" required />
+                    </p>
+                    <p>
+                      <input name="age" placeholder="나이" required />
+                    </p>
+                    <p>
+                      <input name="sex" placeholder="성별" required />
+                    </p>
+                    <input name="file" type="file" value="파일 선택" required />
+                    <p>
+                      <input type="submit" value="추천카드검색" />
+                    </p>
+                  </form>
+
+                </div> -->
+      </section><!-- End Services Section -->
+
+
+
+    </main><!-- End #main -->
+  </div>
+
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      navActivePage();
+      scrollRevelation('.reveal');
+    });
+
+    let perso_card1 = 'Tag1';
+    let perso_card2 = 'Tag2';
+    let perso_card3 = 'Tag3';
+    let gu_card1 = 'Tag1';
+    let gu_card2 = 'Tag2';
+    let gu_card3 = 'Tag3';
+    let dong_card1 = 'Tag1';
+    let dong_card2 = 'Tag2';
+    let dong_card3 = 'Tag3';
+    $('#titleSelectBtn').click(function () {
+      var title_gu = $('#gu').val();
+      var title_dong = $('#dong').val();
+      var title_age = $('#age').val();
+      var title_sex = $('#sex').val();
+      var title_file = $('#file').val();
+      $.ajax({
+        url:"{% url 'setResult' %}",
+        type:'POST',
+        data: {}
+      })
+    })
+  </script> -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+  <!-- <script>window.onload = function () {
+      window.location.href = "#services";
+      var strCook = document.cookie;
+      if (strCook.indexOf("!~") != 0) {
+        var intS = strCook.indexOf("!~");
+        var intE = strCook.indexOf("~!");
+        var strPos = strCook.substring(intS + 2, intE);
+        document.getElementById("piece").scrollTop = strPos;
+      }
+    }
+
+    function SetDivPosition() {
+      var intY = document.getElementById("piece").scrollTop;
+      document.title = intY;
+      document.cookie = "xPos=!~" + intY + "~!";
+    }</script> -->
+</body>
+
+</html>
